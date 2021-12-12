@@ -1,0 +1,25 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "esModuleInterop": true,
+    "noImplicitAny": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    },
+    "skipLibCheck": true,
+    "strict": true,
+    "strictNullChecks": true,
+    "strictFunctionTypes": true,
+    "lib": ["es6", "DOM"],
+    "resolveJsonModule": true,
+    "types": ["@types/node"],
+    "typeRoots": ["node_modules/@types", "index.d.ts"]
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules/", "dist/"]
+}

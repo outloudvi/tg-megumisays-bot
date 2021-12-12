@@ -1,0 +1,35 @@
+{
+  "name": "tg-megumisays-bot",
+  "version": "1.0.0",
+  "description": "Speech-to-text bot wrapper for Microsoft Cognitive Services.",
+  "scripts": {
+    "launch": "nodemon src/index.ts",
+    "dev": "npm run launch",
+    "start": "ts-node src/index.ts",
+    "build": "tsc",
+    "build:watch": "tsc -w",
+    "clear": "rimraf dist node_modules"
+  },
+  "keywords": [
+    "telegram",
+    "bot",
+    "telegraf",
+    "typescript",
+    "cognitive"
+  ],
+  "author": "Outvi V <oss+npm@outv.im>",
+  "license": "MIT",
+  "dependencies": {
+    "grammy": "^1.5.3",
+    "node-fetch": "^2",
+    "typescript": "^4.5"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.12",
+    "@types/node-fetch": "^3.0.3",
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.4.0"
+  }
+}

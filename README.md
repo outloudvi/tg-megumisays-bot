@@ -1,0 +1,5 @@
+# Megumi Says
+
+## License
+
+MIT
